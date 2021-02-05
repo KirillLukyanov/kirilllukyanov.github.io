@@ -1,2 +1,2 @@
 # pulsometers
-readme text
+Второй проект. Использую Gulp, GIT, БЭМ, SCSS.
