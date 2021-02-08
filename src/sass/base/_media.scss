@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header {
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            margin-left: 25px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+
+    .promo {
+        background: url(../../img/bg/main_bg.jpg) -200px (center / cover) no-repeat;
+        &__header {
+            font-size: 32px;
+        }
+        &__subheader {
+            font-size: 17px;
+        }
+        &__icons {
+            width: 395px;
+        }
+    }
+
+    .button_main {
+        width: 275px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+
+    .advantages {
+        &__items {
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+        &__item {
+            width: 320px;
+            margin-top: 40px;
+            h3 {
+                margin: 25px 0 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .promo {
+        &__header {
+            font-size: 28px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__icons {
+            width: 355px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        flex-direction: column;
+        &__contacts {
+            margin: 10px 0 0;
+            align-self: flex-end;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 14px;
+        }
+        &__icons {
+            margin: 0;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+        }
+        &__icon {
+            margin-top: 40px;
+            width: 170px;
+        }
+    }
+
+    .advantages {
+        &__header {
+            font-size: 24px;
+        }
+        &__item {
+            width: 230px;
+        }
+    }
+}

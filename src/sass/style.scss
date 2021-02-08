@@ -1,12 +1,14 @@
 @import 'base/variables';
 @import 'base/mixins';
 
+
 * {
     font-family: 'Museo Sans Cyril', sans-serif;
 }
 
 .container {
-    max-width: 950px;
+    max-width: 1024px;
+    padding: 0 37px;
     margin: 0 auto;
 }
 
@@ -14,3 +16,5 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+
+@import 'base/media';

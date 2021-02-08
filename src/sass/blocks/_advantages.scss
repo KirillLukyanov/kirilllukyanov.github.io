@@ -9,7 +9,7 @@
         text-align: center;
     }
     &__items {
-        min-width: 950px;
+        max-width: 950px;
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
