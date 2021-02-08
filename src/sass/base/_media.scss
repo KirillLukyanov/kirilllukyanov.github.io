@@ -1,3 +1,9 @@
+@media (max-width: 1024px) {
+    .promo {
+        background: url(../../img/bg/main_bg.jpg) -100px (center / cover) no-repeat;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 0 15px;
