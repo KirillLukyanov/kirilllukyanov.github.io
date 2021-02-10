@@ -1,3 +1,9 @@
+.consultation {
+    .title_small {
+        display: none;
+    }
+}
+
 @media (max-width: 1024px) {
     .promo {
         background: url(../img/bg/main_bg.jpg) -100px (center / cover) no-repeat;
@@ -55,6 +61,15 @@
             }
         }
     }
+
+    .consultation {
+        .title {
+            font-size: 18px;
+        }
+        &__descr {
+            font-size: 17px;
+        }
+    }
 }
 
 @media (max-width: 425px) {
@@ -72,6 +87,17 @@
         }
         &__icons {
             width: 355px;
+        }
+    }
+    .consultation {
+        .title_small {
+            display: block;
+        }
+        .title_large {
+            display: none;
+        }
+        &__descr {
+            font-size: 16px;
         }
     }
 }
@@ -108,11 +134,18 @@
     }
 
     .advantages {
-        &__header {
+        .title {
             font-size: 24px;
         }
         &__item {
             width: 230px;
         }
     }
+
+    .consultation {
+        &__descr {
+            font-size: 14px;
+        }
+    }
 }
+
