@@ -38,6 +38,9 @@
             background: $main-color;
             color: #FFFFFF;
         }
+        &_small {
+            display: none;
+        }
     }
     &__content {
         margin-top: 60px;
