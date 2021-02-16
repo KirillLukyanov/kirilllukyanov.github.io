@@ -26,6 +26,9 @@
         color: #FFFFFF;
         text-align: center;
         display: block;
+        &:hover {
+            color: #FFFFFF;
+        }
     }
     &__social {
         display: flex;
