@@ -32,6 +32,11 @@
             margin-top: 35px;
         }
     }
+    .advantages {
+        &__item {
+            width: 215px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -152,6 +157,13 @@
             }
         }
     }
+    .overlay {
+        .modal {
+            width: 340px;
+            padding: 35px 20px 40px;
+
+        }
+    }
 }
 
 @media (max-width: 425px) {
@@ -205,6 +217,14 @@
         }
         &__addr {
             font-size: 16px;
+        }
+    }
+    .overlay {
+        .modal {
+            &__close {
+            top: -30px;
+            right: 0;
+            }
         }
     }
 }
@@ -276,6 +296,22 @@
         &__social {
             width: 170px;
             margin: 20px auto 0;
+        }
+    }
+    .overlay {
+        .modal {
+            width: 300px;
+            &__descr {
+                font-size: 15px;
+            }
+            .feed-form {
+                input {
+                    height: 45px;
+                }
+                .button {
+                    height: 50px;
+                }
+            }
         }
     }
 }

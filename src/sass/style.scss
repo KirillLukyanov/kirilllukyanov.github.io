@@ -21,6 +21,18 @@
     user-select: none;
   }
 
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    img {
+        width: 100%;
+    }
+}
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/advantages';
